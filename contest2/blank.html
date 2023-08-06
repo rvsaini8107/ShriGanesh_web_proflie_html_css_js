@@ -1,0 +1,205 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Contest 2</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+      * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+      }
+
+      body {
+        font-family: 'Poppins', sans-serif;
+      }
+
+      /* Header */
+
+      .header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px 40px;
+        background-color: #f2f2f2;
+      }
+
+      .header__logo {
+        font-size: 1.5rem;
+        font-weight: 600;
+      }
+
+      .header__search {
+        width: 300px;
+        height: 40px;
+        border-radius: 20px;
+        background-color: #ebebeb;
+        padding: 0 20px;
+      }
+
+      .header__buttons {
+        display: flex;
+      }
+
+      .header__button {
+        padding: 10px 20px;
+        background-color: #ebebeb;
+        border-radius: 20px;
+        margin-left: 10px;
+      }
+
+      /* About Us */
+
+      .about {
+        display: flex;
+        justify-content: space-between;
+        padding: 40px 0 80px 0; 
+      }
+
+      .about__text { 
+        width: 50%; 
+      }
+
+      .about__text h2 { 
+        font-size: 2rem; 
+        font-weight: 600; 
+      }
+
+      .about__text p { 
+        font-size: 1.2rem; 
+        line-height: 1.5rem; 
+      }
+
+      .about__clock { 
+        width: 50%; 
+      }
+
+      .about__clock img { 
+        width: 100%; 
+      }
+
+      /* Our Categories */
+
+      .categories { 
+        display: flex; 
+        flex-wrap: wrap; 
+      }
+
+      .category { 
+        width: 25%; 
+        padding: 20px 10px 10px 10px; 
+      }
+
+      .category h3 { 
+        font-size: 1.4rem; 
+        font-weight: 600; 
+      }
+
+      .category p { 
+        font-size: 1.2rem; 
+        line-height: 1.5rem; 
+      }
+
+      .category__button { 
+        padding: 10px 20px; 
+        background-color: #ebebeb; 
+        border-radius: 20px; 
+      }
+
+      /* Footer */
+
+      .footer { 
+        display: flex; 
+        justify-content: space-between; 
+        padding: 40px 0; 
+        background-color: #f2f2f2; 
+      }
+
+      .footer__logo { 
+        font-size: 1.5rem; 
+        font-weight: 600; 
+      }
+
+      .footer__sitemap { 
+        font-size: 1.2rem; 
+        line-height: 1.5rem; 
+      }
+
+      .footer__social { 
+        display: flex; 
+      }
+
+      .footer__social a { 
+        margin-left: 10px; 
+      }
+
+    </style>
+  </head>
+
+  <body>
+    
+    <header class="header">
+      <div class="header__logo">Contest 2</div>
+      <input type="text" class="header__search" placeholder="Search...">
+      <div class="header__buttons">
+        <button class="header__button">Sign Up</button>
+        <button class="header__button">Login</button>
+        <button class="header__button">Help</button>
+      </div>
+    </header>
+
+    <section class="about">
+      <div class="about__text">
+        <h2>About Us</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+        <button class="about__button">Know More</button>
+      </div>
+      <div class="about__clock">
+        <img src="clock.png" alt="Clock">
+      </div>
+    </section>
+
+    <section class="categories">
+      <div class="category">
+        <h3>Category 1</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        <button class="category__button">Know More</button>
+      </div>
+      <div class="category">
+        <h3>Category 2</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        <button class="category__button">Know More</button>
+      </div>
+      <div class="category">
+        <h3>Category 3</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        <button class="category__button">Know More</button>
+      </div>
+      <div class="category">
+        <h3>Category 4</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        <button class="category__button">Know More</button>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="footer__logo">Contest 2</div>
+      <div class="footer__sitemap">
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">Our Categories</a></li>
+        </ul>
+      </div>
+      <div class="footer__social">
+        <a href="#"><img src="facebook.png" alt="Facebook"></a>
+        <a href="#"><img src="twitter.png" alt="Twitter"></a>
+        <a href="#"><img src="instagram.png" alt="Instagram"></a>
+      </div>
+    </footer>
+
+  </body>
+</html>
